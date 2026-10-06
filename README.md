@@ -66,13 +66,3 @@ drwxrwx---  2 <user> www-data 4096 Oct  6 12:20 logs
 Thư mục cần quyền `execute` (x) để có thể "đi vào" (traverse); với web tĩnh, `www-data` nằm trong group nên đọc/duyệt được `public`, và ghi được log vào `logs`.
 
 ---
-
-## 5. Cách thức nộp bài
-- Nộp `README.md` này (ghi lại các lệnh + output `ls -la /var/www/my-app`) vào `homework/session_06/ex1/`.
-```bash
-mkdir -p homework/session_06/ex1
-git add homework/session_06/ex1
-git commit -m "Session 06 - Bai 1: FHS & advanced permissions"
-git push origin main
-```
-Sau khi push, vào mục **"Nộp bài"** trên portal và dán link GitHub tới `homework/session_06/ex1/`.
